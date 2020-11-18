@@ -1,0 +1,2 @@
+require conf/distro/include/phosphor-base.inc
+
