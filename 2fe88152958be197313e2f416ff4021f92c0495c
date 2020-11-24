@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "9c30c836_c0662b5d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000960
+      },
+      "writtenOn": "2020-11-24T11:37:44Z",
+      "side": 1,
+      "message": "sorry ,i will modify it. And thank you.",
+      "parentUuid": "64eb0d5b_39edb445",
+      "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "b9bf3825_176266d4",
         "filename": "/COMMIT_MSG",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2020-11-19T03:19:03Z",
       "side": 1,
       "message": "You should only have 1 Change-Id line.  I suggest keeping the one on line 10 and deleting this one.",
+      "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bd7277ae_962f93fa",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000960
+      },
+      "writtenOn": "2020-11-24T11:37:44Z",
+      "side": 1,
+      "message": "ok, you are right.thank you.",
+      "parentUuid": "b9bf3825_176266d4",
       "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": true
@@ -59,6 +95,30 @@
     },
     {
       "key": {
+        "uuid": "41238ade_188769e8",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000960
+      },
+      "writtenOn": "2020-11-24T11:37:44Z",
+      "side": 1,
+      "message": "Yeah, the name is belong to my company which is an company culture.I will modify it,thank you.",
+      "parentUuid": "78944169_dbcd725e",
+      "range": {
+        "startLine": 9,
+        "startChar": 15,
+        "endLine": 9,
+        "endChar": 30
+      },
+      "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "7dd6dab3_d5c837b9",
         "filename": "meta-alibaba/conf/distro/include/common-feature.inc",
         "patchSetId": 1
@@ -70,6 +130,24 @@
       "writtenOn": "2020-11-19T03:19:03Z",
       "side": 1,
       "message": "This is not the suggested way to add packages to an image, because this adds it for the machine and not the image.\n\nA number of other metas include ipmitool.  I suggest following their pattern:\n\n  meta-amd/recipes-amd/packagegroups/packagegroup-amd-apps.bb:        ipmitool \\\n  meta-bytedance/recipes-phosphor/packagegroups/packagegroup-bytedance-apps.bb:        ipmitool \\\n  meta-facebook/recipes-fb/packagegroups/packagegroup-fb-apps.bb:        ipmitool \\\n  meta-lenovo/meta-common/recipes-lenovo/packagegroups/packagegroup-lenovo-apps.bb:        ipmitool \\",
+      "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "33508ff4_2f3831f2",
+        "filename": "meta-alibaba/conf/distro/include/common-feature.inc",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000960
+      },
+      "writtenOn": "2020-11-24T11:37:44Z",
+      "side": 1,
+      "message": "Actually，i am confused which package belong to machine and which package belong to imange(while i just thought the why the package should be added for the machine is that the package is machine related)，can you give me a hand?",
+      "parentUuid": "7dd6dab3_d5c837b9",
       "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": true
@@ -99,6 +177,30 @@
     },
     {
       "key": {
+        "uuid": "0b41ea49_e4e9c7be",
+        "filename": "meta-alibaba/conf/layer.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000960
+      },
+      "writtenOn": "2020-11-24T11:37:44Z",
+      "side": 1,
+      "message": "while it\u0027s right, and this time i have not commit the directories which will be used, thank you.",
+      "parentUuid": "07bd7e32_ab307051",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 61
+      },
+      "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "97205a37_d760333a",
         "filename": "meta-alibaba/conf/layer.conf",
         "patchSetId": 1
@@ -110,6 +212,24 @@
       "writtenOn": "2020-11-19T03:19:03Z",
       "side": 1,
       "message": "Please use \"dunfell gatesgarth\" now.  Drop \u0027warrior\u0027 and \u0027zeus\u0027.",
+      "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7863dc6e_26ee0881",
+        "filename": "meta-alibaba/conf/layer.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000960
+      },
+      "writtenOn": "2020-11-24T11:37:44Z",
+      "side": 1,
+      "message": "can you help to tell me the the difference between them? Thank you.",
+      "parentUuid": "97205a37_d760333a",
       "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": true
@@ -133,6 +253,24 @@
     },
     {
       "key": {
+        "uuid": "d1e02c8c_e3869199",
+        "filename": "meta-alibaba/conf/machine/include/common-bsp-ast2500.inc",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000960
+      },
+      "writtenOn": "2020-11-24T11:37:44Z",
+      "side": 1,
+      "message": "While the file is a header file designed for many machines having common configrature, so may be it\u0027s ok?",
+      "parentUuid": "1e12c59c_322b04e9",
+      "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "2722e898_f332b946",
         "filename": "meta-alibaba/meta-thor/conf/layer.conf",
         "patchSetId": 1
@@ -144,6 +282,24 @@
       "writtenOn": "2020-11-19T03:19:03Z",
       "side": 1,
       "message": "Also \"dunfell gatesgarth\" here.",
+      "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4ba39f5b_70a91011",
+        "filename": "meta-alibaba/meta-thor/conf/layer.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000960
+      },
+      "writtenOn": "2020-11-24T11:37:44Z",
+      "side": 1,
+      "message": "Thank you.",
+      "parentUuid": "2722e898_f332b946",
       "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": true
@@ -167,6 +323,24 @@
     },
     {
       "key": {
+        "uuid": "e9462067_740ffa60",
+        "filename": "meta-alibaba/meta-thor/recipes-kernel/linux/linux-aspeed/dts/Makefile",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000960
+      },
+      "writtenOn": "2020-11-24T11:37:44Z",
+      "side": 1,
+      "message": "Accept it, thank you.",
+      "parentUuid": "152fb70e_464048d2",
+      "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "3deaacc9_d458dcef",
         "filename": "meta-alibaba/meta-thor/recipes-kernel/linux/linux-aspeed/dts/aspeed-alibaba-thor.dts",
         "patchSetId": 1
@@ -178,6 +352,24 @@
       "writtenOn": "2020-11-19T03:19:03Z",
       "side": 1,
       "message": "@Joel - are we ok with having DTS files in meta trees?  I thought we didn\u0027t want that happening.  I don\u0027t see any others.",
+      "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "23b1cdfd_b3fa960d",
+        "filename": "meta-alibaba/meta-thor/recipes-kernel/linux/linux-aspeed/dts/aspeed-alibaba-thor.dts",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000960
+      },
+      "writtenOn": "2020-11-24T11:37:44Z",
+      "side": 1,
+      "message": "I thought the DTS file is machine related，so i belive it\u0027s reasonable.",
+      "parentUuid": "3deaacc9_d458dcef",
       "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": true
@@ -201,6 +393,24 @@
     },
     {
       "key": {
+        "uuid": "b877ae1d_4314dade",
+        "filename": "meta-alibaba/meta-thor/recipes-kernel/linux/linux-aspeed/dts/aspeed-g5.dtsi",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000960
+      },
+      "writtenOn": "2020-11-24T11:37:44Z",
+      "side": 1,
+      "message": "Accept it， thank you.",
+      "parentUuid": "7c8fe5f7_a61dc3c0",
+      "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "3dd7eff3_ea3bd701",
         "filename": "meta-alibaba/meta-thor/recipes-kernel/linux/linux-aspeed_%.bbappend",
         "patchSetId": 1
@@ -212,6 +422,30 @@
       "writtenOn": "2020-11-19T03:19:03Z",
       "side": 1,
       "message": "I don\u0027t think it is good to blindly copy these files overtop what is in the source tree.  You should patch them.",
+      "range": {
+        "startLine": 11,
+        "startChar": 0,
+        "endLine": 12,
+        "endChar": 55
+      },
+      "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "74069eae_d4709d0c",
+        "filename": "meta-alibaba/meta-thor/recipes-kernel/linux/linux-aspeed_%.bbappend",
+        "patchSetId": 1
+      },
+      "lineNbr": 12,
+      "author": {
+        "id": 1000960
+      },
+      "writtenOn": "2020-11-24T11:37:44Z",
+      "side": 1,
+      "message": "yes，it\u0027s better way.Thank you.",
+      "parentUuid": "3dd7eff3_ea3bd701",
       "range": {
         "startLine": 11,
         "startChar": 0,
