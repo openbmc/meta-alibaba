@@ -2,6 +2,23 @@
   "comments": [
     {
       "key": {
+        "uuid": "54968062_f2f62ba8",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-11-30T15:41:09Z",
+      "side": 1,
+      "message": "I think we mentioned this before, but Signed-off-by should be a legal name of an individual.  I suspect \"Developer\" is not part of your name.",
+      "revId": "c1b5fbb4624973a413087e0cd6a3f2e87e6c1a99",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "97c45ce5_7840e0d2",
         "filename": "meta-alibaba/meta-comm-oem/recipes-phosphor/packagegroups/packagegroup-alibaba-apps.bb",
         "patchSetId": 1
