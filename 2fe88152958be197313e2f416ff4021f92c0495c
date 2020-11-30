@@ -154,6 +154,24 @@
     },
     {
       "key": {
+        "uuid": "521fe3ed_31e4489d",
+        "filename": "meta-alibaba/conf/distro/include/common-feature.inc",
+        "patchSetId": 1
+      },
+      "lineNbr": 3,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-11-30T15:52:14Z",
+      "side": 1,
+      "message": "Maybe we should discuss on Discord.  I\u0027m not certain what your question is here.  (stwcx is my nickname on Discord)",
+      "parentUuid": "33508ff4_2f3831f2",
+      "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "07bd7e32_ab307051",
         "filename": "meta-alibaba/conf/layer.conf",
         "patchSetId": 1
@@ -236,6 +254,24 @@
     },
     {
       "key": {
+        "uuid": "cf03ec39_2d99de0f",
+        "filename": "meta-alibaba/conf/layer.conf",
+        "patchSetId": 1
+      },
+      "lineNbr": 11,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-11-30T15:52:14Z",
+      "side": 1,
+      "message": "They are different versions of Yocto.  \u0027warrior\u0027 and \u0027zeus\u0027 are 2-3 versions back.  \u0027dunfell\u0027 is the previous version and \u0027gatesgarth\u0027 is the current version.",
+      "parentUuid": "7863dc6e_26ee0881",
+      "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "1e12c59c_322b04e9",
         "filename": "meta-alibaba/conf/machine/include/common-bsp-ast2500.inc",
         "patchSetId": 1
@@ -265,6 +301,24 @@
       "side": 1,
       "message": "While the file is a header file designed for many machines having common configrature, so may be it\u0027s ok?",
       "parentUuid": "1e12c59c_322b04e9",
+      "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c40045bb_e0333c4b",
+        "filename": "meta-alibaba/conf/machine/include/common-bsp-ast2500.inc",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-11-30T15:52:14Z",
+      "side": 1,
+      "message": "There are machines with an AST2500 where we use NCSI rather than a dedicated PHY.  So, this \"common-...-ast2500.inc\" really isn\u0027t common but is specific to your current implementations.  This may cause you trouble later on if you want to support NCSI.  \n\nI suggest wherever possible follow the pattern of existing layers / machines.  Even if they are done poorly it keeps things more consistent for others.  Having said that, if you think we could improve some of our layer and machine organization I think everyone would be receptive to that, but it is better (in my opinion) to get consensus on your proposal and make the change across all the layers.",
+      "parentUuid": "d1e02c8c_e3869199",
       "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": true
@@ -370,6 +424,24 @@
       "side": 1,
       "message": "I thought the DTS file is machine related，so i belive it\u0027s reasonable.",
       "parentUuid": "3deaacc9_d458dcef",
+      "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "ce48ffbe_20d25f23",
+        "filename": "meta-alibaba/meta-thor/recipes-kernel/linux/linux-aspeed/dts/aspeed-alibaba-thor.dts",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2020-11-30T15:52:14Z",
+      "side": 1,
+      "message": "@Joel will need to speak to the rationale as to why there are not any existing DTS files in meta-layers.  I think it has to do with potential incompatibility from kernel upgrades.  We would like all machine DTS files upstreamed.",
+      "parentUuid": "23b1cdfd_b3fa960d",
       "revId": "2fe88152958be197313e2f416ff4021f92c0495c",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": true
