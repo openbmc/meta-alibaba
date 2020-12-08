@@ -19,6 +19,24 @@
     },
     {
       "key": {
+        "uuid": "a1c6bf8c_98e19c2a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 1
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000960
+      },
+      "writtenOn": "2020-12-08T09:21:50Z",
+      "side": 1,
+      "message": "well，get it now.",
+      "parentUuid": "54968062_f2f62ba8",
+      "revId": "c1b5fbb4624973a413087e0cd6a3f2e87e6c1a99",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "97c45ce5_7840e0d2",
         "filename": "meta-alibaba/meta-comm-oem/recipes-phosphor/packagegroups/packagegroup-alibaba-apps.bb",
         "patchSetId": 1
@@ -30,6 +48,24 @@
       "writtenOn": "2020-11-30T15:39:53Z",
       "side": 1,
       "message": "The previous file is a vim swap file that accidentally got checked in.  Please remove.",
+      "revId": "c1b5fbb4624973a413087e0cd6a3f2e87e6c1a99",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4700782c_a9086056",
+        "filename": "meta-alibaba/meta-comm-oem/recipes-phosphor/packagegroups/packagegroup-alibaba-apps.bb",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000960
+      },
+      "writtenOn": "2020-12-08T09:21:50Z",
+      "side": 1,
+      "message": "yeah, it\u0027s unnecessary.",
+      "parentUuid": "97c45ce5_7840e0d2",
       "revId": "c1b5fbb4624973a413087e0cd6a3f2e87e6c1a99",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": true
@@ -53,6 +89,24 @@
     },
     {
       "key": {
+        "uuid": "574309f6_3a37f138",
+        "filename": "meta-alibaba/meta-thor/recipes-bsp/linux/linux-aspeed/alibaba.cfg",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000960
+      },
+      "writtenOn": "2020-12-08T09:21:50Z",
+      "side": 1,
+      "message": "yes,you are right. But i need this feature to help me for debugging the driver, and thank you for your suggests.",
+      "parentUuid": "07eb154a_f8835d79",
+      "revId": "c1b5fbb4624973a413087e0cd6a3f2e87e6c1a99",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
         "uuid": "be39850b_628de87f",
         "filename": "meta-alibaba/meta-thor/recipes-bsp/linux/linux-aspeed/aspeed-alibaba-thor.dts",
         "patchSetId": 1
@@ -64,6 +118,24 @@
       "writtenOn": "2020-11-30T15:39:53Z",
       "side": 1,
       "message": "Is this also going to be submitted upstream / to our linux branch?  We have generally not allowed patch files like this in metas but I can understand if it is a temporary configuration (ie. for ~1 month timeframe).",
+      "revId": "c1b5fbb4624973a413087e0cd6a3f2e87e6c1a99",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "8e552a74_1c8c8a3b",
+        "filename": "meta-alibaba/meta-thor/recipes-bsp/linux/linux-aspeed/aspeed-alibaba-thor.dts",
+        "patchSetId": 1
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000960
+      },
+      "writtenOn": "2020-12-08T09:21:50Z",
+      "side": 1,
+      "message": "No, i put it in metas is just beacuse it can help alibaba to modify the file easily,and thank you.",
+      "parentUuid": "be39850b_628de87f",
       "revId": "c1b5fbb4624973a413087e0cd6a3f2e87e6c1a99",
       "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
       "unresolved": true
