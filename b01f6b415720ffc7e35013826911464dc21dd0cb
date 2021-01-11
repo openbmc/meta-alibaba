@@ -1,0 +1,192 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "b485ec50_18c3aa1a",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-11T22:30:11Z",
+      "side": 1,
+      "message": "Maybe something like:\n\n\"thor: initial machine creation\" ?",
+      "revId": "b01f6b415720ffc7e35013826911464dc21dd0cb",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "baa034e2_84d7f389",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 2
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-11T22:30:11Z",
+      "side": 1,
+      "message": "Still need legal name added here.",
+      "revId": "b01f6b415720ffc7e35013826911464dc21dd0cb",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "bf38e7d4_3a7ef340",
+        "filename": "meta-alibaba/conf/distro/include/common-feature.inc",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-11T22:30:11Z",
+      "side": 1,
+      "message": "I noticed that all of your files are in a \u0027meta-alibaba\u0027 subdirectory.  I don\u0027t think this is correct since you\u0027re trying to make the commit in a meta-alibaba repository.  If you do this, they will be in the openbmc repository as: meta-alibaba/meta-alibaba/...\n\nPlease move everything up 1 level in this repository.",
+      "revId": "b01f6b415720ffc7e35013826911464dc21dd0cb",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "0feedecf_04c8d33e",
+        "filename": "meta-alibaba/conf/layer.conf",
+        "patchSetId": 2
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-11T22:30:11Z",
+      "side": 1,
+      "message": "Still not seeing these directories.  I think this will break builds, so I would suggest removing them until you commit these directories (since that\u0027s what you said before).  Add them when you add those directories.",
+      "range": {
+        "startLine": 4,
+        "startChar": 0,
+        "endLine": 7,
+        "endChar": 61
+      },
+      "revId": "b01f6b415720ffc7e35013826911464dc21dd0cb",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "35bf1faa_7eb84afa",
+        "filename": "meta-alibaba/conf/machine/include/common-bsp-ast2500.inc",
+        "patchSetId": 2
+      },
+      "lineNbr": 1,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-11T22:30:11Z",
+      "side": 1,
+      "message": "Still suggest a change here.",
+      "revId": "b01f6b415720ffc7e35013826911464dc21dd0cb",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "c8882a3e_55ccdd24",
+        "filename": "meta-alibaba/conf/machine/include/common-bsp-ast2500.inc",
+        "patchSetId": 2
+      },
+      "lineNbr": 6,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-11T22:30:11Z",
+      "side": 1,
+      "message": "Is this really appropriate for all ast2500?  I would suggest following the pattern of others and put it either in your machine layer or in a company-named \u0027inc\u0027 file.  It doesn\u0027t seem related to the BMC chip to me.",
+      "range": {
+        "startLine": 5,
+        "startChar": 0,
+        "endLine": 6,
+        "endChar": 72
+      },
+      "revId": "b01f6b415720ffc7e35013826911464dc21dd0cb",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "4bd5cf05_b49b6472",
+        "filename": "meta-alibaba/meta-thor/conf/conf-notes.txt",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-11T22:30:11Z",
+      "side": 1,
+      "message": "This shouldn\u0027t be changed.",
+      "range": {
+        "startLine": 2,
+        "startChar": 5,
+        "endLine": 2,
+        "endChar": 12
+      },
+      "revId": "b01f6b415720ffc7e35013826911464dc21dd0cb",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "9e0f6d21_b38fb3a1",
+        "filename": "meta-alibaba/meta-thor/conf/machine/thor.conf",
+        "patchSetId": 2
+      },
+      "lineNbr": 2,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-11T22:30:11Z",
+      "side": 1,
+      "message": "Looks like you moved some of the changes that I left comments on from ast2500.inc into here, which is fine, but you probably should remove them from ast2500.inc too.",
+      "revId": "b01f6b415720ffc7e35013826911464dc21dd0cb",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "7aef47d8_0ebb0798",
+        "filename": "meta-alibaba/meta-thor/recipes-bsp/linux/linux-aspeed_%.bbappend",
+        "patchSetId": 2
+      },
+      "lineNbr": 4,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-11T22:30:11Z",
+      "side": 1,
+      "message": "We still prefer this upstreamed rather than patched.",
+      "revId": "b01f6b415720ffc7e35013826911464dc21dd0cb",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "609c1300_344319a0",
+        "filename": "meta-alibaba/meta-thor/recipes-kernel/linux/linux-aspeed/dts/aspeed-alibaba-thor.dts",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-11T22:30:11Z",
+      "side": 1,
+      "message": "Empty file?",
+      "revId": "b01f6b415720ffc7e35013826911464dc21dd0cb",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    }
+  ]
+}
