@@ -1,0 +1,38 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "4de4e4cd_e8d84ab2",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 7,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-19T22:14:08Z",
+      "side": 1,
+      "message": "Please remove the [].  They\u0027re just adding noise.",
+      "revId": "d4f03c73d3f4218c09e8f47c36f8f07ab27af923",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    },
+    {
+      "key": {
+        "uuid": "f43cbe67_21e3fb6d",
+        "filename": "/COMMIT_MSG",
+        "patchSetId": 3
+      },
+      "lineNbr": 9,
+      "author": {
+        "id": 1000000
+      },
+      "writtenOn": "2021-01-19T22:14:08Z",
+      "side": 1,
+      "message": "Again, this is not a legal name.  We need a legal name that corresponds to someone on your company\u0027s CCLA.",
+      "revId": "d4f03c73d3f4218c09e8f47c36f8f07ab27af923",
+      "serverId": "adbd0a64-1f21-4d83-b585-671fe73cb6e4",
+      "unresolved": true
+    }
+  ]
+}
